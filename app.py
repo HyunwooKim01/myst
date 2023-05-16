@@ -19,6 +19,6 @@ st.selectbox('Pick your gender',['Men','Women'])
 st.slider('your older',0,100)
 
 rand=np.random.normal(1, 2, size=20)
-fig, ax = plt.subplots0
+fig, ax = plt.subplots()
 ax.hist(rnad, bins=15)
 st.pyplot(fig)
