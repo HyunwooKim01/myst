@@ -1,4 +1,6 @@
 import streamlit as st
+import matplotlib.pyplot as plt
+import numpy as np
 
 x = st.slider('Select a value')
 st.write(x, 'squared is', x * x)
@@ -16,4 +18,7 @@ st.button('Touch')
 st.selecbox('Pick your gender',['Men','Women'])
 st.select_slider('your older',0,100)
 
-
+rand=np.random.normal(1, 2, size=20)
+fig, ax = plt.subplots0
+ax.hist(rnad, bins=15)
+st.pyplot(fig)
