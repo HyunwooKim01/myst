@@ -1,7 +1,7 @@
 import streamlit as st
 
 x = st.slider('Select a value')
-st.wirte(x, 'squared is', x * x)
+st.write(x, 'squared is', x * x)
 
 st.title("this is the app title")
 st.header("this is the markdown")
