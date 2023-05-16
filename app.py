@@ -15,7 +15,7 @@ st.latex(r''' a+a r^1+a r^2+a r^3 ''')
 
 st.checkbox('yes')
 st.button('Touch')
-st.selecbox('Pick your gender',['Men','Women'])
+st.selectbox('Pick your gender',['Men','Women'])
 st.select_slider('your older',0,100)
 
 rand=np.random.normal(1, 2, size=20)
